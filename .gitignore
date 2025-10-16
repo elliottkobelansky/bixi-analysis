@@ -1,0 +1,25 @@
+# ------------------------------------
+# Virtual Environment, IDE, and Cache
+# ------------------------------------
+venv/
+cache/
+__pycache__/
+.DS_Store
+*.o
+*.pyc
+
+# ------------------------------------
+# Jupyter Notebook Outputs and Data
+# ------------------------------------
+# Ignore auto-generated output/display files
+*.gif
+*.geojsong
+.ipynb_checkpoints/
+
+# Ignore large/raw data files and intermediate directories
+*.csv
+*.json
+*.zip
+stm/
+terms.txt
+bixi_netflow_timeslider.html
